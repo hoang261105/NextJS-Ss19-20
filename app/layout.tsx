@@ -67,10 +67,10 @@ export default function RootLayout({
         <body>
           <header>
             <SignedOut>
-              <SignInButton children="Đăng xuất" />
+              <SignInButton />
             </SignedOut>
             <SignedIn>
-              <UserButton children="Đăng nhập" />
+              <UserButton />
             </SignedIn>
           </header>
           <main>{children}</main>
