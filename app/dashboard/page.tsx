@@ -22,5 +22,5 @@ export default function ExternalDataPage() {
     return token;
   };
 
-  return <div>Bạn đã đăng nhập</div>;
+  return <div>Bạn đã đăng nhập thành công</div>;
 }
