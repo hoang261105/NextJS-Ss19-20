@@ -5,9 +5,7 @@ export default function Sign_Up() {
     <div className="flex items-center justify-center h-full">
       <SignUp
         appearance={{
-          elements: {
-            formFieldLabel__username: "Tên tài khoản",
-          },
+          elements: {},
           variables: {},
         }}
       />
